@@ -7,8 +7,8 @@ UrlVerificationServlet and TitleVerificationBean to store URLs in a Map, then us
 associated with each URL and store the page title for each web page. 
 
 User Input Validation
-If the user enters an incomplete URL (such as ìURLTitleExample.comî instead of ìhttps://www.URLTitleExample.comî) then 
-the program attempts to fix the entry by adding feasible options to the beginning (such as ìhttps://wwwî). If the program 
+If the user enters an incomplete URL (such as ‚ÄúURLTitleExample.com‚Äù instead of ‚Äúhttps://www.URLTitleExample.com‚Äù) then 
+the program attempts to fix the entry by adding feasible options to the beginning (such as ‚Äúhttps://www‚Äù). If the program 
 cannot connect to the web site, it shows the user an error instead of a page title. 
 
 Page Title Display
