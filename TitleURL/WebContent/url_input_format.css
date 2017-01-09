@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+.url_entry {
+	text-align: center;
+	white-space: nowrap;
+	font-weight: bold;
+	/*display: inline;*/
+}
+
+.sans_serif_font {
+	font-family: arial, helvetica, sans-serif;
+}
+
+.url_textbox {
+	border: 2px solid blue;
+	display: inline-block;
+	white-space: nowrap;
+	font-weight: normal;
+}
+
+.url_add {
+	border: 2px solid black;
+	background-color: white;
+	text-align:left;
+}
+
+.url_submit {
+	border: 2px solid black;
+	background-color: LightGray;
+	text-align: center;
+}
+
+.page_title {
+	font-weight: bold;
+	font-family: "Times New Roman", times, georgia, serif;
+	color: MidnightBlue;
+	text-align: left;
+}
+
+.page_list {
+	font-weight: normal;
+	color: navy;
+}

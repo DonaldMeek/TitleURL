@@ -1,0 +1,16 @@
+TitleURL
+The TitleURL application shows page titles for user-entered URLs. 
+
+User Interface
+TitleURL uses an HTML user interface to accept URLs. To add an extra URL with the same page, click Add URL. TitleURL uses 
+UrlVerificationServlet and TitleVerificationBean to store URLs in a Map, then uses the jsoup API to parse the HTML 
+associated with each URL and store the page title for each web page. 
+
+User Input Validation
+If the user enters an incomplete URL (such as “URLTitleExample.com” instead of “https://www.URLTitleExample.com”) then 
+the program attempts to fix the entry by adding feasible options to the beginning (such as “https://www”). If the program 
+cannot connect to the web site, it shows the user an error instead of a page title. 
+
+Page Title Display
+UrlVerificationServlet stores a String array of page titles in the request scope then forwards all titles to 
+valid_page_titles.jsp for display. 
